@@ -1,0 +1,236 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".Fragment2">
+
+    <RelativeLayout
+
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        >
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="240dp"
+            android:layout_marginTop="30dp">
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+                <androidx.cardview.widget.CardView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginStart="10dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginEnd="10dp"
+                    android:layout_marginBottom="10dp"
+                    android:backgroundTint="@color/gray"
+                    app:cardCornerRadius="8dp" />
+            </RelativeLayout>
+
+        </LinearLayout>
+        <RelativeLayout
+            android:id="@+id/Rela_1"
+            android:visibility="visible"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_centerHorizontal="true">
+            <TextView
+                android:background="@drawable/border_textview"
+                android:layout_width="220dp"
+                android:textAlignment="center"
+                android:layout_height="wrap_content"
+                android:paddingTop="5dp"
+                android:text="New Lead"
+                android:textStyle="bold"
+                android:textColor="@color/black"
+                android:textSize="29sp"
+                android:layout_marginLeft="0dp"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="10dp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Kundli"
+                android:textStyle="bold"
+                android:textColor="@color/black"
+                android:textSize="18sp"
+                android:paddingBottom="-6dp"
+                android:layout_marginLeft="0dp"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="60dp"
+                android:textAlignment="center"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Name:"
+                android:textStyle="bold"
+                android:textColor="@color/black"
+                android:textSize="18sp"
+                android:paddingBottom="-6dp"
+                android:layout_marginLeft="50dp"
+                android:layout_marginTop="120dp"
+                android:textAlignment="center"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Date of Birth:"
+                android:textStyle="bold"
+                android:textColor="@color/black"
+                android:textSize="18sp"
+                android:paddingBottom="-6dp"
+                android:layout_marginLeft="50dp"
+                android:layout_marginTop="150dp"
+                android:textAlignment="center"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Time of Birth:"
+                android:textStyle="bold"
+                android:textColor="@color/black"
+                android:textSize="18sp"
+                android:paddingBottom="-6dp"
+                android:layout_marginLeft="50dp"
+                android:layout_marginTop="180dp"
+                android:textAlignment="center"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Place:"
+                android:textStyle="bold"
+                android:textColor="@color/black"
+                android:textSize="18sp"
+                android:paddingBottom="-6dp"
+                android:layout_marginLeft="50dp"
+                android:layout_marginTop="210dp"
+                android:textAlignment="center"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Amit Kumar"
+                android:textStyle="bold"
+                android:textColor="@color/black"
+                android:textSize="18sp"
+                android:paddingBottom="-6dp"
+                android:layout_marginLeft="200dp"
+                android:layout_marginTop="120dp"
+                android:textAlignment="center"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="20th Novemeber"
+                android:textStyle="bold"
+                android:textColor="@color/black"
+                android:textSize="18sp"
+                android:paddingBottom="-6dp"
+                android:layout_marginLeft="200dp"
+                android:layout_marginTop="150dp"
+                android:textAlignment="center"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="7:30 AM"
+                android:textStyle="bold"
+                android:textColor="@color/black"
+                android:textSize="18sp"
+                android:paddingBottom="-6dp"
+                android:layout_marginLeft="200dp"
+                android:layout_marginTop="180dp"
+                android:textAlignment="center"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Assam,India"
+                android:textStyle="bold"
+                android:textColor="@color/black"
+                android:textSize="18sp"
+                android:paddingBottom="-6dp"
+                android:layout_marginLeft="200dp"
+                android:layout_marginTop="210dp"
+                android:textAlignment="center"/>
+            <TextView
+                android:background="@drawable/border_textview"
+                android:layout_width="140dp"
+                android:textAlignment="center"
+                android:layout_height="wrap_content"
+                android:padding="5dp"
+                android:text="Call for 5 Min"
+                android:textStyle="bold"
+                android:textColor="@color/black"
+                android:textSize="19sp"
+                android:layout_marginLeft="0dp"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="280dp"/>
+
+            <RelativeLayout
+                android:layout_marginTop="330dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true">
+
+                <TextView
+                    android:id="@+id/tvText"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerInParent="true"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:text="Suggestions"
+                    android:textColor="@color/black"
+                    android:textSize="18sp"
+                    android:textStyle="bold" />
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="16dp"
+                    android:layout_toLeftOf="@id/tvText"
+                    android:background="@color/gray"
+                    />
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:layout_centerVertical="true"
+                    android:layout_marginRight="16dp"
+                    android:layout_toRightOf="@id/tvText"
+                    android:background="@color/gray"
+                    />
+
+            </RelativeLayout>
+            <TextView
+
+                android:layout_width="160dp"
+                android:textAlignment="center"
+                android:layout_height="wrap_content"
+                android:padding="5dp"
+                android:text="Sell new session"
+                android:textStyle="bold"
+                android:textColor="@color/black"
+                android:textSize="19sp"
+                android:layout_marginLeft="0dp"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="360dp"/>
+
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/onButton"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:layout_centerHorizontal="true"
+                android:layout_marginStart="20dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="400dp"
+                android:layout_marginEnd="20dp"
+                android:layout_marginBottom="20dp"
+                android:backgroundTint="@color/black"
+                android:text="CALL NOW"
+                app:cornerRadius="10dp" />
+
+
+        </RelativeLayout>
+    </RelativeLayout>
+</RelativeLayout>
